@@ -1,0 +1,61 @@
+{
+    "@context": "http://iiif.io/api/image/2/context.json",
+    "@id": "https://digital.library.unt.edu/iiif/ark:/67531/metadc891/m1/1",
+    "@type": "iiif:Image",
+    "protocol": "http://iiif.io/api/image",
+    "width": 2000,
+    "height": 1565,
+    "profile": [
+        "http://iiif.io/api/image/2/level2.json",
+        {
+            "formats": [
+                "jpg",
+                "png",
+                "gif"
+            ],
+            "maxArea": 52428800,
+            "qualities": [
+                "default",
+                "gray",
+                "bitonal",
+                "color"
+            ],
+            "supports": [
+                "baseUriRedirect",
+                "canonicalLinkHeader",
+                "jsonldMediaType",
+                "mirroring",
+                "profileLinkHeader",
+                "regionByPct",
+                "regionByPx",
+                "regionSquare",
+                "rotationArbitrary",
+                "rotationBy90s",
+                "sizeAboveFull",
+                "sizeByConfinedWh",
+                "sizeByDistortedWh",
+                "sizeByW",
+                "sizeByH",
+                "sizeByPct",
+                "sizeByWh"
+            ]
+        }
+    ],
+    "sizes": [
+        {
+            "@type": "iiif:Size",
+            "width": 700,
+            "height": 548
+        },
+        {
+            "@type": "iiif:Size",
+            "width": 115,
+            "height": 90
+        },
+        {
+            "@type": "iiif:Size",
+            "width": 2000,
+            "height": 1565
+        }
+    ]
+}

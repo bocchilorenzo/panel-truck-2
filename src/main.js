@@ -1,8 +1,6 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import "ol/ol.css";
 import App from './App.vue'
 
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+createApp(App).mount('#app')
